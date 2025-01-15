@@ -1,0 +1,314 @@
+/* Reset dasar */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Wrapper utama */
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;  /* Menambahkan pembulatan sudut */
+}
+
+.logo {
+  font-size: 35px;
+  font-weight: bold;
+  color: #4f5f70;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Konten utama */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Kartu informasi keuangan */
+.summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.card-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1;
+  position: relative;
+}
+
+.card .label {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.card .value {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.edit-card-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.edit-card-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Tabel riwayat transaksi */
+.transaction-history {
+  width: 100%;
+}
+
+.transaction-history h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr 1fr; /* 5 kolom */
+  gap: 10px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-header {
+  display: contents;
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+.table-header div {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table-row {
+  display: contents;
+}
+
+.table-row div {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table-row:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table-row button {
+  padding: 5px 10px;
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.table-row button:hover {
+  opacity: 0.8;
+}
+
+.table-row button:first-child {
+  background-color: #007bff;
+  color: white;
+}
+
+.table-row button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Form tambah transaksi */
+.add-transaction {
+  width: 100%;
+}
+
+.add-transaction h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.add-transaction form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.add-transaction input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.currency-input {
+  display: flex;
+  align-items: center;
+}
+
+.currency-input .currency {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+}
+
+.currency-input input {
+  flex: 1;
+  border-radius: 0 4px 4px 0;
+}
+
+.add-transaction button {
+  padding: 10px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-transaction button:hover {
+  background-color: #0056b3;
+}
+
+/* Tabel laporan transaksi */
+.transaction-details {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.transaction-details .table-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 3fr; /* Sesuaikan dengan kolom yang dibutuhkan */
+  gap: 10px;
+}
+
+.transaction-details .table-row div {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.transaction-details .table-row:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.export-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.export-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .table {
+    grid-template-columns: 1fr 1fr; /* Sederhanakan untuk layar kecil */
+  }
+
+  .table-header, .table-row {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .transaction-details .table-row {
+    grid-template-columns: 1fr 1fr; /* Sederhanakan untuk layar kecil */
+  }
+}
