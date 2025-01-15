@@ -58,8 +58,3 @@ Berikut adalah contoh tampilan aplikasi myFin:
 
 ## **Lisensi**
 Aplikasi ini dibuat untuk keperluan akademik dan terbuka untuk pengembangan lebih lanjut.
-
----
-
-Terima kasih atas perhatian Anda. 😊
-
