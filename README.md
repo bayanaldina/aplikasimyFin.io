@@ -2,7 +2,7 @@
 
 Selamat datang di repositori tugas mata kuliah **Pemrograman Berorientasi Objek**, dengan dosen pengampu **Sam Farisa Chaerul Haviana, S.T., M.Kom.**.
 
-Kami dari kelompok **"Yali Yali"** yang terdiri dari 3 anggota, yaitu:
+Kami dari kelompok yang mengatasnamakan **"Yali Yali"** yang terdiri dari 3 anggota, yaitu:
 
 | **Nama**              | **NIM**         |
 |-----------------------|-----------------|
