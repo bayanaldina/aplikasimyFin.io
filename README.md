@@ -32,29 +32,11 @@ Kami dari kelompok **"Yali Yali"** yang terdiri dari 3 anggota, yaitu:
 
 ---
 
-## **Cara Menjalankan Aplikasi**
-1. **Download Kode Sumber**  
-   Klik tombol hijau **Code** pada GitHub, lalu pilih **Download ZIP**.
-
-2. **Jalankan Aplikasi Secara Lokal**  
-   - Ekstrak file ZIP yang sudah diunduh.
-   - Buka file `index.html` menggunakan browser.
-
----
-
-## **To-do List**
-- [x] Merancang antarmuka dengan HTML dan CSS.
-- [ ] Menambahkan fitur autentikasi pengguna.
-- [ ] Mengintegrasikan data keuangan ke database.
-
----
-
 ## **Preview Tampilan**
 Berikut adalah contoh tampilan aplikasi myFin:
 
-![Tampilan Aplikasi myFin](https://myfin.playcode.png)
+![Tampilan Aplikasi myFin](https://drive.google.com/file/d/1q880uLPUWhKf0UpWp2k3t4kksUMHC62P/view?usp=sharing.png)
 
 ---
-
-## **Lisensi**
+## **Disclaimer**
 Aplikasi ini dibuat untuk keperluan akademik dan terbuka untuk pengembangan lebih lanjut.
