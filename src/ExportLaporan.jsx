@@ -10,7 +10,6 @@ const ExportLaporan = ({ transactions, pemasukan, pengeluaran, saldo }) => {
     const leftMargin = 20;
     const colonMargin = 70;
 
-    // Set Title and Header
     doc.setFontSize(22);
     doc.setFont('helvetica', 'bold');
     doc.text('Laporan Bulanan myFin', leftMargin, 20);
@@ -26,11 +25,9 @@ const ExportLaporan = ({ transactions, pemasukan, pengeluaran, saldo }) => {
     doc.text(':', colonMargin - 5, 35);
     doc.text('Kelompok yali yali', colonMargin, 35);
 
-    // Horizontal Line
     doc.setLineWidth(0.5);
-    doc.line(20, 40, 190, 40);  // Horizontal line
+    doc.line(20, 40, 190, 40);
 
-    // Table Column Setup
     const tableColumn = ["Tanggal", "Kategori", "Jumlah", "Deskripsi"];
     const tableRows = [];
 
@@ -44,17 +41,15 @@ const ExportLaporan = ({ transactions, pemasukan, pengeluaran, saldo }) => {
       tableRows.push(transactionData);
     });
 
-    // Auto Table for Transactions
     doc.autoTable(tableColumn, tableRows, {
       startY: 45,
-      theme: 'striped', // Striping effect
+      theme: 'striped',
       headStyles: { fillColor: [25, 118, 210], textColor: [255, 255, 255], fontSize: 12 }, // Blue header
       bodyStyles: { fontSize: 10, textColor: [0, 0, 0] }, // Black body text
       styles: { halign: 'center' },
       margin: { top: 10, left: 20, right: 20 }
     });
 
-    // Pemasukan, Pengeluaran, and Saldo in the right corner
     const YPosition = doc.autoTable.previous.finalY + 10;
     const rightMargin = doc.internal.pageSize.width - 20;
 
@@ -63,13 +58,11 @@ const ExportLaporan = ({ transactions, pemasukan, pengeluaran, saldo }) => {
     doc.text(`Pengeluaran: Rp. ${new Intl.NumberFormat('id-ID', { style: 'decimal', maximumFractionDigits: 0 }).format(pengeluaran)}`, rightMargin, YPosition + 10, { align: 'right' });
     doc.text(`Sisa Saldo: Rp. ${new Intl.NumberFormat('id-ID', { style: 'decimal', maximumFractionDigits: 0 }).format(saldo)}`, rightMargin, YPosition + 20, { align: 'right' });
 
-    // Footer with Page Number
     const pageCount = doc.internal.getNumberOfPages();
     doc.setFontSize(10);
     doc.setFont('helvetica', 'normal');
     doc.text(`Halaman ${pageCount}`, doc.internal.pageSize.width - 30, doc.internal.pageSize.height - 10);
 
-    // Save the PDF
     doc.save(`laporan_bulanan_myFin.pdf`);
   };
 
