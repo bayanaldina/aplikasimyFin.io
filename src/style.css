@@ -1,4 +1,3 @@
-/* Reset dasar */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -6,14 +5,12 @@ body {
   color: #333;
 }
 
-/* Wrapper utama */
 .app {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* Header */
 .header {
   display: flex;
   justify-content: space-between;
@@ -23,7 +20,7 @@ body {
   padding: 15px 20px;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;  /* Menambahkan pembulatan sudut */
+  border-radius: 8px;
 }
 
 .logo {
@@ -65,7 +62,6 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Kartu informasi keuangan */
 .summary {
   display: flex;
   flex-direction: column;
@@ -126,7 +122,6 @@ body {
   background-color: #0056b3;
 }
 
-/* Tabel riwayat transaksi */
 .transaction-history {
   width: 100%;
 }
@@ -139,7 +134,7 @@ body {
 
 .table {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 2fr 1fr; /* 5 kolom */
+  grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
   gap: 10px;
   width: 100%;
   border-collapse: collapse;
@@ -193,7 +188,6 @@ body {
   color: white;
 }
 
-/* Form tambah transaksi */
 .add-transaction {
   width: 100%;
 }
@@ -253,7 +247,6 @@ body {
   background-color: #0056b3;
 }
 
-/* Tabel laporan transaksi */
 .transaction-details {
   width: 100%;
   margin-top: 20px;
@@ -261,7 +254,7 @@ body {
 
 .transaction-details .table-row {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 3fr; /* Sesuaikan dengan kolom yang dibutuhkan */
+  grid-template-columns: 1fr 1fr 1fr 3fr; 
   gap: 10px;
 }
 
@@ -293,7 +286,6 @@ body {
   background-color: #0056b3;
 }
 
-/* Responsif */
 @media (max-width: 768px) {
   .cards {
     flex-direction: column;
@@ -301,7 +293,7 @@ body {
   }
 
   .table {
-    grid-template-columns: 1fr 1fr; /* Sederhanakan untuk layar kecil */
+    grid-template-columns: 1fr 1fr;
   }
 
   .table-header, .table-row {
@@ -309,6 +301,6 @@ body {
   }
 
   .transaction-details .table-row {
-    grid-template-columns: 1fr 1fr; /* Sederhanakan untuk layar kecil */
+    grid-template-columns: 1fr 1fr;
   }
 }
