@@ -35,7 +35,7 @@ Kami dari kelompok **"Yali Yali"** yang terdiri dari 3 anggota, yaitu:
 ## **Preview Tampilan**
 Berikut adalah contoh tampilan aplikasi myFin:
 
-![Tampilan Aplikasi myFin](https://drive.google.com/file/d/1q880uLPUWhKf0UpWp2k3t4kksUMHC62P/view?usp=sharing.png)
+![Tampilan Aplikasi myFin](https://drive.google.com/file/d/1q880uLPUWhKf0UpWp2k3t4kksUMHC62P/view?usp=sharing)
 
 ---
 ## **Disclaimer**
