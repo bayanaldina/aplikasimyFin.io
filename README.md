@@ -16,9 +16,9 @@ Kami dari kelompok yang mengatasnamakan **"Yali Yali"** yang terdiri dari 3 angg
 
 **myFin** adalah aplikasi berbasis web yang dirancang untuk membantu pengguna dalam mengelola keuangan bulanan. Aplikasi ini menyediakan solusi pendokumentasian sederhana bagi mereka yang mengalami kesulitan dalam memanajemen keuangan.
 
-🔗 **Link Demo Aplikasi**: [myFin di PlayCode](https://myfin.playcode.io)
+🔗 **Link Demo Aplikasi**: [myFin di PlayCode](https://aplikasimanajemenkeuanganmyfin.playcode.io)
 
-### **Fitur Utama**
+### **Fitur Utama Aplikasi myFin**
 - Input dan pencatatan pengeluaran bulanan.
 - Statistik dan laporan keuangan sederhana.
 - Antarmuka yang user-friendly berbasis HTML dan CSS.
