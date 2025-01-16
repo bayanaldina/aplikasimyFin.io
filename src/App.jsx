@@ -4,9 +4,9 @@ import ExportLaporan from "./ExportLaporan";
 
 export const App = () => {
   const [transactions, setTransactions] = useState([
-    { date: "01/01/23", category: "Makanan", amount: 1400000, description: "Beli bahan masak" },
-    { date: "02/01/23", category: "Kebutuhan Rumah", amount: 900000, description: "Alat dan perkakas" },
-    { date: "03/01/23", category: "Body Care", amount: 3000000, description: "Sabun, Shampo, DLL" },
+    { date: "13/01/25", category: "Makanan", amount: 1400000, description: "Beli bahan masak" },
+    { date: "13/01/25", category: "Kebutuhan Rumah", amount: 900000, description: "Alat dan perkakas" },
+    { date: "13/01/25", category: "Body Care", amount: 3000000, description: "Sabun, Shampo, DLL" },
   ]);
 
   const [newTransaction, setNewTransaction] = useState({
