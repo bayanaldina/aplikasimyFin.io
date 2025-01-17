@@ -8,7 +8,7 @@ Kami dari kelompok yang mengatasnamakan **"Yali Yali"** yang terdiri dari 3 angg
 |-----------------------|-----------------|
 | M. Bayan Aldina       | 32602300024     |
 | Alif Naufal Adani     | 32602300006     |
-| Novi Muriara Sari     | 32602300036     |
+| Novi Mutiara Sari     | 32602300036     |
 
 ---
 
